@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/profile/angie-create)
-- Live Site URL: [GitHub Pages](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution](https://github.com/angie-create/article-preview-component-master)
+- Live Site URL: [GitHub Pages](https://angie-create.github.io/article-preview-component-master/)
 
 ## My process
 
@@ -70,5 +70,5 @@ Areas I want to continue focusing on:
 
 ## Author
 
-- Website - [Angie P](https://www.frontendmentor.io/profile/angie-create)
+- Website - [Angie P](https://surf-spray-98102403.figma.site/)
 - Frontend Mentor - [@angie-create](https://www.frontendmentor.io/profile/angie-create)
