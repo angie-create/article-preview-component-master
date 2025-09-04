@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./stylesheet.css">
+  
+  <title>Frontend Mentor | Article preview component</title>
+
+</head>
+<body>
+
+  <main class="article-preview">
+    <article class="card">
+      <div class="card__image">
+        <img src="./images/drawers.jpg" alt="Green chest of drawers with decorative items">
+      </div>
+      
+      <div class="card__content">
+        <h1 class="card__title">
+          Shift the overall look and feel by adding these wonderful 
+          touches to furniture in your home
+        </h1>
+        
+        <p class="card__description">
+          Ever been in a room and felt like something was missing? Perhaps 
+          it felt slightly bare and uninviting. I've got some simple tips 
+          to help you make any room feel complete.
+        </p>
+        
+        <div class="card__author">
+          <div class="author-info">
+            <img src="./images/avatar-michelle.jpg" alt="Michelle Appleton" class="author-info__avatar">
+            <div class="author-info__details">
+              <span class="author-info__name">Michelle Appleton</span>
+              <span class="author-info__date">28 Jun 2020</span>
+            </div>
+          </div>
+          
+          <div class="share-popup" aria-hidden="true">
+            <span class="share-popup__text">Share</span>
+            <div class="share-popup__links">
+              <a href="#" class="share-popup__link" aria-label="Share on Facebook">
+                <img src="./images/icon-facebook.svg" alt="Facebook">
+              </a>
+              <a href="#" class="share-popup__link" aria-label="Share on Twitter">
+                <img src="./images/icon-twitter.svg" alt="Twitter">
+              </a>
+              <a href="#" class="share-popup__link" aria-label="Share on Pinterest">
+                <img src="./images/icon-pinterest.svg" alt="Pinterest">
+              </a>
+            </div>
+          </div>
+          
+          <button class="share-btn" aria-label="Share article">
+            <img src="./images/icon-share.svg" alt="Share">
+          </button>
+        </div>
+      </div>
+    </article>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/angie-create">Angie P</a>.
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
